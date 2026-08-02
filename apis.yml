@@ -1,8 +1,16 @@
 aid: topxgun
 name: TopXGun
-description: 'TopXGun is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'TopXGun (Nanjing TopXGun Robotics / 拓攻机器人) is a Chinese unmanned aerial
+  vehicle manufacturer specializing in the research, development, and production of
+  agricultural spray drones, heavy-lift delivery drones, industrial and cleaning drones,
+  firefighting and emergency UAVs, tethered drones, eVTOL and large unmanned aircraft,
+  and the professional flight-control and avionics hardware, payload equipment, and
+  software systems that power them. Its whole-aircraft capability spans all airspace
+  below 5,000 meters and payloads up to 1.5 tons across core industries, and it offers
+  ODM/OEM customization and education support. Its overseas agricultural line is marketed
+  as TopXGun Agriculture (topxgunag.com) with CE, FCC, RoHS, and KC certifications.
+  Surfaced as a portfolio company of DCM Ventures. No public web API, SDK, or developer
+  portal was found during enrichment; this is a hardware manufacturer.'
 url: https://raw.githubusercontent.com/api-evangelist/topxgun/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,32 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://27079645.s21i.faiusr.com/2/ABUIABACGAAgh7afyQYov--PcjCAFDigCw.jpg.webp
 tags:
 - Company
 - Frontier Tech
+- Drones
+- UAV
+- Agriculture
+- Robotics
+- Agricultural Technology
+- Flight Control
+- eVTOL
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,19 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/topxgun-domain-security.yml
 - type: Website
-  url: http://www.topxgun.com/en/
+  url: https://www.topxgun.com/
+- type: Website
+  name: TopXGun Agriculture (Global)
+  url: https://www.topxgunag.com/
+- type: YouTube
+  url: https://www.youtube.com/@topxgunofficial
+- type: Facebook
+  url: https://www.facebook.com/TopxgunDrone
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
